@@ -191,7 +191,7 @@ tickets   id · title · description · priority · status · created_by → use
 comments  id · ticket_id → tickets · user_id → users · body · created_at
 ```
 
-An `updated_at` trigger on the `tickets` table keeps timestamps accurate automatically.
+An `updated_at` trigger on the `tickets` table keeps timestamps accurate automatically
 
 ## Deployment
 
